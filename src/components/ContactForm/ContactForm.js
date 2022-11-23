@@ -43,7 +43,7 @@ export default function ContactForm() {
   };
 
   const handleChange = e => {
-    e.currentTarget.type === 'text'
+    e.currentTarget.id === 'name'
       ? setName(e.currentTarget.value)
       : setNumber(e.currentTarget.value);
   };
