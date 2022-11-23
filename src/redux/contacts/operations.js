@@ -23,7 +23,7 @@ export const addContact = createAsyncThunk(
     } catch (e) {
       if (e.response.status === 400) {
         Notiflix.Notify.failure(
-          `Извините, но вы ввели невалидные данные. Попробуйте еще раз!`
+          `Извините, но Вы ввели невалидные данные. Попробуйте еще раз!`
         );
       }
       return thunkAPI.rejectWithValue(e.message);

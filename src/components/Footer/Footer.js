@@ -6,8 +6,9 @@ export const Footer = () => {
     <Box
       component={'footer'}
       sx={{
-        position: 'absolute',
-        width: '100%',
+        // position: 'absolute',
+        // bottom: 0,
+        // width: '100%',
         py: 3,
         px: 2,
         backgroundColor: 'grey.A100',
@@ -23,7 +24,6 @@ export const Footer = () => {
         component="a"
         href="/goit-react-hw-08-phonebook/"
         sx={{
-          mr: 2,
           ml: '7px',
           fontWeight: 700,
           letterSpacing: '.3rem',

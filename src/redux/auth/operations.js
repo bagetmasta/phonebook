@@ -23,7 +23,7 @@ export const register = createAsyncThunk(
     } catch (error) {
       if (error.response.status === 400) {
         Notiflix.Notify.failure(
-          `Извините, но что-то пошло не так! Но неужели это Вас оставит?`
+          `Извините, но что-то пошло не так! Перазагрузите страницу и попробуйте еще раз!`
         );
       }
       return thunkAPI.rejectWithValue(error.message);
@@ -42,7 +42,7 @@ export const logIn = createAsyncThunk(
     } catch (error) {
       if (error.response.status === 400) {
         Notiflix.Notify.failure(
-          `Вероятно, вы ошиблись с данными. Но ничего страшного, ведь все иногда ошибаются!`
+          `Вероятно, вы ошиблись с данными. Перазагрузите страницу и попробуйте еще раз!`
         );
       }
       return thunkAPI.rejectWithValue(error.message);
