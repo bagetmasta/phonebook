@@ -2,7 +2,14 @@ import { Box, Link, Typography } from '@mui/material';
 
 export const ForgotPasswordPage = () => {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        height: '100vh',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       <Typography
         sx={{
           fontFamily:
@@ -11,7 +18,7 @@ export const ForgotPasswordPage = () => {
           fontSize: '16px',
         }}
       >
-        Постарайтесь вспомнить ваш пароль и
+        Постарайтесь вспомнить Ваш пароль и
       </Typography>
       <Link sx={{ ml: '5px' }} href="/goit-react-hw-08-phonebook/login">
         попробуйте еще раз!

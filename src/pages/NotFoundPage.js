@@ -2,7 +2,14 @@ import { Box, Link, Typography } from '@mui/material';
 
 export const NotFoundPage = () => {
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        height: '100vh',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       <Typography
         sx={{
           fontFamily:
