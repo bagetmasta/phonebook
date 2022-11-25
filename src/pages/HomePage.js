@@ -6,7 +6,7 @@ export default function Home() {
     <Box
       sx={{
         backgroundImage: `url(${books})`,
-        height: '80vh',
+        height: '77.7vh',
         backgroundPosition: 'center',
       }}
     ></Box>

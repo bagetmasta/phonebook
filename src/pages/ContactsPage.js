@@ -21,6 +21,7 @@ export default function ContactsPage() {
       sx={{
         display: {
           sm: 'flex',
+          flex: '1 1 auto',
           justifyContent: 'space-around',
           alignItems: 'baseline',
         },

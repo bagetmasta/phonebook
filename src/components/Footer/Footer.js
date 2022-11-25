@@ -6,9 +6,6 @@ export const Footer = () => {
     <Box
       component={'footer'}
       sx={{
-        // position: 'absolute',
-        // bottom: 0,
-        // width: '100%',
         py: 3,
         px: 2,
         backgroundColor: 'grey.A100',

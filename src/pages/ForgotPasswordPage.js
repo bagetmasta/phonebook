@@ -5,7 +5,7 @@ export const ForgotPasswordPage = () => {
     <Box
       sx={{
         display: 'flex',
-        height: '100vh',
+        height: '77.7vh',
         alignItems: 'center',
         justifyContent: 'center',
       }}
