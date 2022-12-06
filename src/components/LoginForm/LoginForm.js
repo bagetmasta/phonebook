@@ -55,7 +55,7 @@ export default function SignInSide() {
 
   return (
     <ThemeProvider theme={theme}>
-      <Grid container component="main">
+      <Grid container component="main" sx={{ flex: '1 1 auto' }}>
         <CssBaseline />
         <Grid
           item

@@ -8,6 +8,7 @@ export const NotFoundPage = () => {
         height: '77.7vh',
         alignItems: 'center',
         justifyContent: 'center',
+        flex: '1 1 auto',
       }}
     >
       <Box

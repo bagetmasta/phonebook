@@ -8,6 +8,7 @@ export default function Home() {
         backgroundImage: `url(${books})`,
         height: '77.7vh',
         backgroundPosition: 'center',
+        flex: '1 1 auto',
       }}
     ></Box>
   );
