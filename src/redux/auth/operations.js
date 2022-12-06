@@ -23,7 +23,7 @@ export const register = createAsyncThunk(
     } catch (error) {
       if (error.response.status === 400) {
         Notiflix.Notify.failure(
-          `Извините, но что-то пошло не так! Перазагрузите страницу и попробуйте еще раз!`
+          `Попробуйте зарегестрироваться на gmail.com и использовать не менее 7 символов при создании пароля.`
         );
       }
       return thunkAPI.rejectWithValue(error.message);
