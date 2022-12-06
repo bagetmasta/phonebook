@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[206],{1206:function(e,t,a){a.r(t),a.d(t,{default:function(){return r}});var n=a(5531),o=a(6015),c=a(184);function r(){return(0,c.jsx)(o.Z,{sx:{backgroundImage:"url(".concat(n,")"),height:"77.7vh",backgroundPosition:"center",flex:"1 1 auto"}})}},5531:function(e,t,a){e.exports=a.p+"static/media/books.17f2dd213e9bea6c7afd.webp"}}]);
+//# sourceMappingURL=206.568b004a.chunk.js.map
