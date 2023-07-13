@@ -19,7 +19,7 @@ export const Footer = () => {
         variant="h6"
         noWrap
         component="a"
-        href="/goit-react-hw-08-phonebook/"
+        href="/react-phonebook/"
         sx={{
           ml: '7px',
           fontWeight: 700,

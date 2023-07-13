@@ -29,7 +29,7 @@ export const ForgotPasswordPage = () => {
         >
           Постарайтесь вспомнить Ваш пароль и
         </Typography>
-        <Link sx={{ ml: '5px' }} href="/goit-react-hw-08-phonebook/login">
+        <Link sx={{ ml: '5px' }} href="/react-phonebook/login">
           попробуйте еще раз!
         </Link>
       </Box>

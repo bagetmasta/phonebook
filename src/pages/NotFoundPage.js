@@ -29,7 +29,7 @@ export const NotFoundPage = () => {
         >
           К сожалению, здесь ничего нет. Кстати, Вы всех внесли в
         </Typography>
-        <Link sx={{ ml: '5px' }} href="/goit-react-hw-08-phonebook/contacts">
+        <Link sx={{ ml: '5px' }} href="/react-phonebook/contacts">
           список контактов?
         </Link>
       </Box>
