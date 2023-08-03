@@ -62,7 +62,3 @@ export default function CircularStatic() {
 
   return <CircularProgressWithLabel value={progress} />;
 }
-
-// export const CircularProgressComponent = () => {
-//   return CircularStatic();
-// };

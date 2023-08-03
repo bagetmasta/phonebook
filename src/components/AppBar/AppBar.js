@@ -5,7 +5,6 @@ import { AuthNav } from '../AuthNav/AuthNav';
 import { Outlet } from 'react-router-dom';
 import { useAuth } from 'hooks';
 import { LinearProgress } from '@mui/material';
-import { Footer } from 'components/Footer/Footer';
 import { AppBar, Toolbar, Container } from '@mui/material';
 
 export default function StyledAppBar() {
@@ -32,8 +31,6 @@ export default function StyledAppBar() {
       <Suspense fallback={<LinearProgress color="success" />}>
         <Outlet />
       </Suspense>
-
-      <Footer />
     </>
   );
 }
