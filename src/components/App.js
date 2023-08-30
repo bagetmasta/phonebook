@@ -29,6 +29,7 @@ export const App = () => {
     <Routes>
       <Route path="/" element={<AppBar />}>
         <Route index element={<HomePage />} />
+
         <Route
           path="/register"
           element={
@@ -38,19 +39,23 @@ export const App = () => {
             />
           }
         />
+
         <Route
           path="/login"
           element={
             <RestrictedRoute redirectTo="/contacts" component={<LoginPage />} />
           }
         />
+
         <Route
           path="/contacts"
           element={
             <PrivateRoute redirectTo="/login" component={<ContactsPage />} />
           }
         />
+
         <Route path="/forgotpassword" element={<ForgotPasswordPage />} />
+
         <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>

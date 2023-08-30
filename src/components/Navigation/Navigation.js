@@ -52,7 +52,7 @@ export const Navigation = () => {
           variant="h6"
           noWrap
           component="a"
-          href="/react-phonebook/"
+          href="/"
           sx={{
             mr: 2,
             ml: '7px',
