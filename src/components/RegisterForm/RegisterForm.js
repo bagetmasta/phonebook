@@ -24,7 +24,12 @@ function Copyright(props) {
       {...props}
     >
       {'Copyright © '}
-      <Link color="inherit" href="https://github.com/bagetmasta">
+      <Link
+        color="inherit"
+        href="https://github.com/bagetmasta"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Artem Bahmet
       </Link>{' '}
       {new Date().getFullYear()}
